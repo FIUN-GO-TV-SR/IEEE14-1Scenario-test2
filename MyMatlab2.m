@@ -2,7 +2,8 @@
 % This script creates the 'solution2.txt' file
 %addpath('dependencies')
 global pfotemp
-global solutionMPC_FIUN
+%global solutionMPC_FIUN
+load('solution0_FIUN.mat')
 scenarioDir = pfotemp;
 rawFile = fullfile(scenarioDir, 'powersystem.raw');
 genFile = fullfile(scenarioDir, 'generator.csv');
